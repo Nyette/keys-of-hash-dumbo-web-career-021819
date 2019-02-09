@@ -7,10 +7,9 @@ class Hash
     keys = []
     arguments.each do |argument|
       if value == argument
-        binding.pry
-        p key
+        keys << key
       end
     end
-  keys
+    keys
   end
 end
