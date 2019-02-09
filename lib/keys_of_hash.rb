@@ -6,8 +6,10 @@ class Hash
     # whose value matches the value(s) given as an argument
     keys = []
     arguments.each do |argument|
-      if value == argument
-        keys << key
+      each do |key, value|
+        if value == argument
+          keys << key
+        end
       end
     end
     keys
