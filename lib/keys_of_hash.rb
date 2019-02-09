@@ -1,5 +1,3 @@
-require 'pry'
-
 class Hash
   def keys_of(*arguments)
     # returns an array with every key from the hash
